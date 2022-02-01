@@ -1,0 +1,145 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.playlist {
+  margin: 10px;
+  display: inline-block;
+}
+
+.playlist-cover {
+  background-color: #06c5df;
+  background-image: linear-gradient(to top, #b0e0e6 0%, #06c5df 100%);
+  text-align: center;
+  width: 320px;
+  height: 320px;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+.playlist-title {
+  font-size: 25px;
+  font-family: 'Quintessential', cursive;
+  text-transform: capitalize;
+  color: green;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.playlist-data {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: green;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.playlist-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Quintessential', cursive;
+  font-size: 50px;
+  font-style: normal;
+  color: green;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.content {
+  width: 790px;
+  margin: 50px auto 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 2px;
+  border-style: outset;
+  border-color: rgb(6, 197, 223);
+  box-shadow: 5px 5px 10px rgb(6, 197, 223, .4);
+  width: 247px;
+  height: 400px;
+  margin-bottom: 60px;
+  margin-right: 20px;
+  padding: 20px 20px 60px;
+  display: inline-block;
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  height: 250px;
+  background-color: lightblue;
+  background-image: url(https://i.pinimg.com/564x/3a/19/5f/3a195f45020eb1321a8206fa94832904.jpg);
+  background-size: contain;
+  /* background-position: center; */
+  display: flex;
+  text-align: center;
+}
+
+.footer-author {
+  color: honeydew;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.footer-contact {
+  color: honeydew;
+}
+
+.footer-contact:hover {
+  color: none;
+}
